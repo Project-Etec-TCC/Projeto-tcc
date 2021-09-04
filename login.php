@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon/pw3.ico">
+    <link rel="icon" href="favicon/tcc.ico">
 
-    <title>PW3</title>
+    <title>PizzaOn</title>
 
     <!-- Principal CSS do Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -21,12 +21,12 @@
     <script src="https://kit.fontawesome.com/77f3dd62a7.js" crossorigin="anonymous"></script>
 </head>
 
-<body cz-shortcut-listen="true" class="bg-dark">
+<body cz-shortcut-listen="true" class="bg-secondary">
 
 <main role="main" class="container">
 
      <div class="row">
-        <div class="col-sm-4 offset-sm-4 bg-info">
+        <div class="col-sm-4 offset-sm-4 bg-white">
             <h1 class="text-center">
                 <a href="index.php">PizzaOn</a>
             </h1>

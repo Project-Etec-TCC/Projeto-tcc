@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon/pw3.ico">
+    <link rel="icon" href="favicon/tcc.ico">
 
-    <title>PW3</title>
+    <title>PizzaOn</title>
 
     <!-- Principal CSS do Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">

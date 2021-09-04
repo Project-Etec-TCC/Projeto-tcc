@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon/pw3.ico">
+    <link rel="icon" href="favicon/tcc.ico">
 
-    <title>PW3</title>
+    <title>PizzaOn</title>
 
     <!-- Principal CSS do Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -17,12 +17,13 @@
 
     <!-- FONTAWESOME -->
     <script src="https://kit.fontawesome.com/77f3dd62a7.js" crossorigin="anonymous"></script>
+
   </head>
 
   <body cz-shortcut-listen="true">
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+      <a class="navbar-brand" href="#">PizzaOn</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,13 +31,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">PizzaOn <span class="sr-only">(atual)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Desativado</a>
+            <a class="nav-link" href="#">Saiba mais <span class="sr-only">(atual)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="https://example.com/" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -46,19 +41,79 @@
               <a class="dropdown-item" href="#">Algum outro item</a>
             </div>
           </li>
+          <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Search">
+          <button class="btn btn-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
         </ul>
         <div class="my-2 my-lg-0">
-          <a href="login.php" class="btn btn-outline-success"><i class="fas fa-sign-in-alt"></i> Login</a>
+          <a href="login.php" class="btn btn-success"><i class="fas fa-sign-in-alt"></i> Login</a>
         </div>
       </div>
     </nav>
 
-    <main role="main" class="container">
+    <!-- Visual -->
 
-      <div class="starter-template">
-        <h1>Template Bootstrap inicial</h1>
-        <p class="lead">Use este documento como uma maneira de iniciar um novo projeto, rapidamente.<br>Tudo oquê você começa é com este texto e um documento HTML (quase vazio).</p>
-      </div>
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+
+          <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+              <img src="pizza.jpg" class="rounded mx-auto d-block" alt="...">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">Atualizado a 9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+      
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+              <img src="pizza.jpg" class="rounded mx-auto d-block" alt="...">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">Atualizado a 9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+              <img src="pizza.jpg" class="rounded mx-auto d-block" alt="...">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">Atualizado a 9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+              <img src="pizza.jpg" class="rounded mx-auto d-block" alt="...">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">Atualizado a 9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 
     </main><!-- /.container -->
 
@@ -67,6 +122,7 @@
     <!-- Foi colocado no final para a página carregar mais rápido -->
     <script src="js/jquery-3.js"></script>
     <script src="js/bootstrap.js"></script>
+
   
 
 </body></html>

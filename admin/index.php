@@ -47,12 +47,10 @@
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="index.php?pg=perfil">Editar perfil</a>
               <a class="dropdown-item" href="index.php?pg=altera-senha">Alterar senha</a>
+              <a class="dropdown-item" href="index.php?pg=dados-pizzaria">Editar dados da pizzaria</a>
             </div>
           </li>
-          <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Search">
-          <button class="btn btn-success my-2 my-sm-0" type="submit">Pesquisar</button>
-        </form>
+
         </ul>
         <div class="my-2 my-lg-0">
           <a href="logoff.php" class="btn btn-success"><i class="fas fa-sign-out-alt"></i> Sair</a>

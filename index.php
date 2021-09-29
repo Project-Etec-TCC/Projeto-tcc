@@ -63,7 +63,7 @@
               <div class="card mb-4 shadow-sm">
               <img src="pizza.jpg" class="rounded mx-auto d-block" alt="...">
                 <div class="card-body">
-                  <p class="card-text"></p>
+                  <h1 class="card-text">Teste</h1>
                   <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <small class="text-muted">Atualizado a 9 mins</small>

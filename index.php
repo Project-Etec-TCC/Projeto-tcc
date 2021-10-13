@@ -6,6 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon/tcc.ico">
+    <link rel="stylesheet" href="style.css">
 
     <title>PizzaOn</title>
 
@@ -22,7 +23,7 @@
 
   <body cz-shortcut-listen="true">
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top meuTopo">
       <a class="navbar-brand" href="#">PizzaOn</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,7 +35,7 @@
             <a class="nav-link" href="#">Saiba mais <span class="sr-only">(atual)</span></a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="https://example.com/" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Item</a>
               <a class="dropdown-item" href="#">Outro item</a>
@@ -42,7 +43,7 @@
             </div>
           </li>
           <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Search">
+          <input class="form-control mr-sm-2" type="text" placeholder="Procurar pizzaria" aria-label="Search">
           <button class="btn btn-success my-2 my-sm-0" type="submit">Pesquisar</button>
         </form>
         </ul>
@@ -64,7 +65,7 @@
               <img src="pizza.jpg" class="rounded mx-auto d-block" alt="...">
                 <div class="card-body">
                   <h1 class="card-text">Teste</h1>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <small class="text-muted">Atualizado a 9 mins</small>
                   </div>
@@ -73,6 +74,45 @@
             </div>
 
       
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+              <img src="pizza.jpg" class="rounded mx-auto d-block" alt="...">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">Atualizado a 9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+              <img src="pizza.jpg" class="rounded mx-auto d-block" alt="...">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">Atualizado a 9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+              <img src="pizza.jpg" class="rounded mx-auto d-block" alt="...">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">Atualizado a 9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
               <img src="pizza.jpg" class="rounded mx-auto d-block" alt="...">

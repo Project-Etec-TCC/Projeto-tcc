@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="stylesheet" href="style.css">
     <!-- <link rel="icon" href="favicon/pw3.ico"> -->
 
     <title>Criar conta</title>
@@ -24,15 +25,14 @@
 
 </head>
 
-<body cz-shortcut-listen="true" class="bg-secondary">
+<body>
 
-    <main role="main" class="container">
+    <main class="container">
 
-        <div class="row">
-            <div class="col-sm-4 offset-sm-4 bg-white mt-5 border rounded bg-white">
-                <h1 class="h4 text-center">
-                    <a href="index.php">PizzaOn</a>
-                </h1>
+            <div class="input-field">
+            <h2>
+                <a>Cadastrar</a>
+            </h2>
                 <p class="login-box-msg text-center">Crie sua conta gratuita</p>
 
                 <?php session_start();
@@ -44,54 +44,44 @@
                 ?>
                 <form action="cria-conta.php" method="post" id="formCriaConta">
                     <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
-                        </div>
-                        <input type="text" name="nome" class="form-control" placeholder="Nome completo" aria-label="nome" aria-describedby="basic-addon1"
+                        <input type="text" name="nome" placeholder="Nome completo" aria-label="nome" aria-describedby="basic-addon1"
                         value="<?php echo @$dadosForm['nome'];?>">
+                        <div class="underline"></div>
                     </div>
 
                     <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
-                        </div>
-                        <input type="text" name="email" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1"
+                        <input type="text" name="email" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1"
                         value="<?php echo @$dadosForm['email'];?>">
+                        <div class="underline"></div>
                     </div>
 
 
                     <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
-                        </div>
-                        <input type="number"  name="numero" class="form-control" placeholder="Insira seu número"    aria-label="numero" aria-describedby="basic-addon1"
+                        <input type="number"  name="numero" placeholder="Insira seu número"    aria-label="numero" aria-describedby="basic-addon1"
                         value="<?php echo @$dadosForm['numero'];?>">
+                        <div class="underline"></div>
                     </div>
 
 
 
                     <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
-                        </div>
-                        <input type="password" name="senha" id="senha" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon1"
+                        <input type="password" name="senha" id="senha" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon1"
                         value="<?php echo @$dadosForm['senha'];?>">
+                        <div class="underline"></div>
                     </div>
 
                     <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
-                        </div>
-                        <input type="password" name="confirmaSenha" class="form-control" placeholder="Repita a senha" aria-label="Repita a senha" aria-describedby="basic-addon1"
+                        <input type="password" name="confirmaSenha" placeholder="Repita a senha" aria-label="Repita a senha" aria-describedby="basic-addon1"
                         value="<?php echo @$dadosForm['confirmaSenha'];?>">
+                        <div class="underline"></div>
                     </div>
 
                     <?php if(@$dadosForm['termos']=='on'){
                         $checked="checked='checked'";
                     }?>
-                    <div class="form-group form-check">
+                    <div class="input-group mb-3">
                         <input type="checkbox" name="termos" class="form-check-input" id="termos" <?php echo @$checked; ?>>
-                        <label class="form-check-label" for="exampleCheck1">Aceitar os <a href="#" data-toggle="modal" data-target="#modalTermos">termos</a> </label>
+                        <label class="form-check-label" for="exampleCheck1">Aceitar os <a href="#" data-toggle="modal" data-target="#modalTermos">termos</a></label>
                     </div>
 
                     <?php if(isset($_GET['erro'])){
@@ -105,7 +95,7 @@
                     }?>
 
                     <div class="form-group text-right">
-                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                        <button type="submit" class="form-input" value="Continue">Cadastrar</button>
                     </div>
 
                           
@@ -116,7 +106,6 @@
                 </p>
 
             </div>
-        </div>
 
     </main><!-- /.container -->
 
